@@ -1,0 +1,89 @@
+.loadingContainer {
+  grid-row-start: 2;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.emptyMessageContainer {
+  grid-row-start: 2;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.emptyMessage {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.errorMessageContainer {
+  grid-row-start: 2;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.errorMessage {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.contentContainer {
+  grid-row-start: 2;
+}
+
+.commentsHeading {
+  font-size: 1.40rem;
+  font-weight: 500;
+  text-align: left;
+  margin: 10px 0 5px 0;
+}
+
+.linkToReddit {
+  display: block;
+  font-size: 1rem;
+  margin: 10px 0 10px 0;
+  color: #000000;
+  text-decoration: none;
+  transition: font-weight 0.15s ease-in-out;
+}
+
+.linkToReddit:hover {
+  font-weight: 700;
+}
+
+.linkToReddit:active {
+  color: #D83148;
+}
+
+@media screen and (max-width: 900px) {
+  .commentsContainer {
+    max-width: 640px;
+    margin: 0 auto 10px auto;
+  }
+
+  .commentsHeading {
+    font-size: 1.20rem;
+  }
+}

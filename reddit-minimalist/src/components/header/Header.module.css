@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid gray;
+}
+
+.headerContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  padding-right: 5px;
+}
+
+.logo:hover {
+  animation: logo-float infinite 0.75s linear;
+}
+
+.homeLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.appName {
+  font-family: Quicksand, sans-serif;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.gitHubLogo {
+  width: 32px;
+  height: 32px;
+}
+
+.gitHubLogo:hover {
+  animation: logo-float infinite 0.75s linear;
+}
+
+@keyframes logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerContainer {
+    padding: 10px;
+  }
+
+  .appName {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .gitHubLogo {
+    display: none;
+  }
+}

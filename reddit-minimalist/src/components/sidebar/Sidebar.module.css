@@ -1,0 +1,24 @@
+.sidebarContainer {
+  grid-row: 2;
+  grid-column-start: 2;
+  align-self: start;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin: 10px 0 0 0;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebarContainer {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    height: 155px;
+    overflow: scroll;
+  }
+}
