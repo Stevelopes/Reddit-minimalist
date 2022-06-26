@@ -10,9 +10,9 @@ A live demo can be found [here](https://redditpocket.netlify.app/).
 
 ## Technologies
 
-* React v18.1.0
-* Redux Toolkit v1.8.1
-* React Router v6.3.0
-* CSS Modules
+* React
+* Redux Toolkit
+* React Router
+* CSS
 * [Reddit's JSON API](https://github.com/reddit-archive/reddit/wiki/API)
 * Jest and React Testing Library
